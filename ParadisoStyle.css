@@ -1,0 +1,83 @@
+body{
+	background-image:url('background.jpg');
+}
+
+#logo{
+	padding-right:240px;
+	padding-top:10px;
+}
+
+
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+ 
+font-family: 'Suez One', serif;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #f2b63e;
+}
+
+.active {
+  background-color: #e30d0d;
+}
+
+#slogen{
+	width:496px;
+	height:590px;
+	  box-shadow: 5px 5px 3px #aaaaaa;
+	  margin-top:0;
+	  padding-right:0px;
+	float:left;
+}
+
+#mainText{
+color:white;
+text-align:center;
+font-family: 'Amatic SC', cursive;
+	
+}
+
+#title{
+	font-size:40px;
+	margin-top:100px;
+}
+
+
+#secondText{
+color:white;
+text-align:center;
+font-family: 'Amatic SC', cursive;
+
+	
+}
+
+#subTitle{
+	margin-top:300px;
+}
+
+#secondPhoto{
+	float:right;
+	margin-top:250px;
+	  box-shadow: -8px -4px 4px #aaaaaa;
+
+}
+#nopad
+{
+	padding:0;
+}
+@media only screen and (max-width: 600px) {
+	#secondPhoto
+	{
+		margin-right:100px;
+	}
+}
